@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Jackeline Evora</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="CV_Index.css">
+		<link rel="stylesheet" type="text/css" href="CV_IndexS.css">
+		<link rel="stylesheet" type="text/css" href="CV_Footer.css">
+		<script src="CV_JS.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		
+
+		<script type="text/javascript">
+			//Efecto de imagen entrada
+			window.addEventListener("scroll", function(){
+				var header = document.querySelector("header");
+				header.classList.toggle("abajo", window.scrollY>0);
+			})
+			$(window).scroll(function(){
+				var scroll = $(window).scrollTop();
+				$('.layer1').css({
+					width: (100 + scroll/5) + '%'
+				})
+				$('.layer2').css({
+					width: (100 + scroll/5) + '%', left:scroll/50 + '%'
+				})
+				$('.text').css({
+					top: - scroll/20 + '%'
+				})
+			})
+		</script>
+	</head>
+
+	<body>
+		<header>
+			<div class="topnav" id="myTopnav">
+				<a href="index.html" class="active">Principal</a>
+				<a href="index.html#info">Sobre mi</a>
+				<a href="index.html#contac">Contactos</a>
+				<a href="CV_Acade.html">Academico</a>
+				<a href="CV_Labo.html">Laboral</a>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i></a>
+			</div>
+		</header>
+		
+
+		<section class="zoom">
+			<img src="media/texto.PNG" class="text">
+			<img src="media/mont1.PNG" class="layer1">
+			<img src="media/mont2.PNG" class="layer2">
+		</section>
+
+		<section class="content" id="foto"><br><br>
+			<h2 align="center" id="info">Autobiografia</h2><br>
+			<img src="media/foto.jpeg" width="400" height="450" align="right" HSPACE="20" VSPACE="20">
+			<br><br>
+			<p>Mi nombre es Jackeline Rebeca Evora Chávez. Naci el veinte-seis de junio de dos mil cuatro, en el Hospital Nacional Psiquiátrico “Dr. José Molina Martínez". Nací con una enfermedad por la cúal tuve que estar ingresada por dos meses despúes de haber nacido, en los cúales no podia recibir ningun tipo de afecto de mi madre ni de mi padre; por esto mismo no tuve lactancia materna, y solo bebia leche procesada. Concidero que eso afecto un poco mi bienestar pero támbien creo un poco de independencia de mi madre.
+			<br><br>
+			Desde que era pequeña se me impusieron diferentes retos y responsabilidades; a la edad de cuatro años ya podia ir a comprar a la tienda de forma independiente. Siempre me ha gustado ser amigable y trato de llevar una buena relacion con todos. En la escuela era la mas sociable, siempre trate de agradarle a todos.<br>
+			Cuando llego el momento de entrar a la escuela, destaque con facilidad, la mayoria de veces llevaba buenas notas, para ser sincera, me encanta el hecho de tener nuevo conocimiento, lo que no me gusta son las evaluciones, me pongo muy nerviosa. Dejando un poco eso de lado, llevaba buenas notas y de kinder a noveno grado recibi una medalla de primer lugar, con ecepcion del segundo grado, ahi me dieron medalla de segundo lugar, pero no le tome mucha importancia, porq para mi segui siendo bueno. <br>
+			En sexto grado recibi un diploma de informatica nivel basico por parte de un curso en la fuerza aerea nacional de El Salvador y mas adelante en noveno grado pude participar en un concurso de matematicas. Supongo que pase por oportunidades que otros no tuvieron y lo bueno fue aprovecharlas. En octavo grado obtuve la beca <a href="CV_Acade.html#superate">¡supérate ADOC!</a> y pase ahi tres años de estudio. Ser parte de esta beca me ayudo de muchas formas, al mismo tiempo llevaba mis estudios de bachillerato general con diplomado en panaderia, en el cual llevaba practicas del mismo. En este caso la competitividad era grande y no pude destacar mucho, pero tuve algunas participaciones. <br><br>
+			Concidero que todo lo que he pasado me convertido en lo que ahora soy, una persona atenta, comprensiva, amigable; alguien que comparte diversos puntos de vista, que le gusta trabajar en equipo. Me adapto facilmente a las situaciones, ademas de que he aprendido a manejar el estres de tener varios compromisos al mismo tiempo. Estoy satisfecha con lo que soy y espero ser lo que los demas necesitan.
+			</p>
+		</section>
+		<hr><br><br><br><br>
+
+		<h2 align="center">Valores</h2>
+		<br><br><br>
+
+		<div id="peqdivs">
+			<h1>Respeto</h1>
+			<p class="Content">Uno de los valores que me gusta poner en practica es el respeto, ya que concidero que es algo esencial en la vida, y no solo se pone en practica, laboralmente, si no que tambien personalmente. El respeto es algo que me gusta mostrar y que me gusta que lo demuestren conmigo.</p>
+		</div>
+
+		<div id="peqdivs" style="float: right; margin-right: 1em; position: relative;">
+			<h1>Comprension</h1>
+			<p class="Content">La commprension es algo que siempre he necesitado, no todos pensamos igual o no todos hemos tenido las mismas oportunidades; por eso concidero que la comprencion tiene gran importancia. No solo puede ser comprender a alguien en una situacion, si no comprender su emocion, sus pensamientos, todo. Yo soy muy comprensiva, porque tambien quiero que sean comprensivos conmigo.</p>
+		</div>
+
+		<div id="peqdivs" style="float: left; margin-right: 1em; position: relative;">
+			<h1>Perseverancia</h1>
+			<p class="Content">Este valor es el que mas me destacan, no importa que tan dificil sea una situacion o un problema, trato de buscarle una solucion y si a mi no se me ocurre nada, busco ayuda, analizo los puntos de vista de los demas y nunca desprecio una opinion.</p>
+		</div>
+
+
+		<section  class="texto" align="center">
+			<div>
+			<br><br>
+			<h2 align="center">Mi familia</h2>
+			<br><br>
+			<p>
+				Mi familia esta compuesta por mi mamá, mi papá, mi hermana y yo. Algunos de mis familiares viven cerca de mi; dos tías, y primos, de toda esa generacion, yo soy la mayor. Algunas veces cuide de mis primos, los cambiaba y alimentaba. Ademas de eso, tengo una tia que es licenciada en enfermeria y otra tia es maestra de lenguaje para educacion basica. De mis demas familiares son solamente bachilleres, pero han tenido diferentes experiencias laborales, de las cuales me han enseñado varias cosas. <br>
+				Mi familia es mi tesoro, espero poder ayudar a mi hermana para que ella pueda tener mejores oportunidades que yo, y pueda cumplir sus sueños. <br><br>
+				Espero y tengo fé en Dios de que todo va a salir como lo espero, que algun dia voy a poder brindar ayuda a mi familia así como ellos me han brindado a mi ayuda no solo economica si no emocional.
+			</p><br><br>
+			</div>
+		</section>
+
+		<footer id="contac">
+			<div class="social-media-links">
+				<ul>
+					<li>
+						<!-- whatsapp -->
+						<a href="https://wa.me/50379695522">
+							<svg class="glow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 90">
+								<path class="st0" d="M90,43.841c0,24.213-19.779,43.841-44.182,43.841c-7.747,0-15.025-1.98-21.357-5.455L0,90l7.975-23.522 c-4.023-6.606-6.34-14.354-6.34-22.637C1.635,19.628,21.416,0,45.818,0C70.223,0,90,19.628,90,43.841z M45.818,6.982 c-20.484,0-37.146,16.535-37.146,36.859c0,8.065,2.629,15.534,7.076,21.61L11.107,79.14l14.275-4.537 c5.865,3.851,12.891,6.097,20.437,6.097c20.481,0,37.146-16.533,37.146-36.857S66.301,6.982,45.818,6.982z M68.129,53.938 c-0.273-0.447-0.994-0.717-2.076-1.254c-1.084-0.537-6.41-3.138-7.4-3.495c-0.993-0.358-1.717-0.538-2.438,0.537 c-0.721,1.076-2.797,3.495-3.43,4.212c-0.632,0.719-1.263,0.809-2.347,0.271c-1.082-0.537-4.571-1.673-8.708-5.333 c-3.219-2.848-5.393-6.364-6.025-7.441c-0.631-1.075-0.066-1.656,0.475-2.191c0.488-0.482,1.084-1.255,1.625-1.882 c0.543-0.628,0.723-1.075,1.082-1.793c0.363-0.717,0.182-1.344-0.09-1.883c-0.27-0.537-2.438-5.825-3.34-7.977 c-0.902-2.15-1.803-1.792-2.436-1.792c-0.631,0-1.354-0.09-2.076-0.09c-0.722,0-1.896,0.269-2.889,1.344 c-0.992,1.076-3.789,3.676-3.789,8.963c0,5.288,3.879,10.397,4.422,11.113c0.541,0.716,7.49,11.92,18.5,16.223 C58.2,65.771,58.2,64.336,60.186,64.156c1.984-0.179,6.406-2.599,7.312-5.107C68.398,56.537,68.398,54.386,68.129,53.938z"/>
+							</svg>
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 90">
+								<path class="st0" d="M90,43.841c0,24.213-19.779,43.841-44.182,43.841c-7.747,0-15.025-1.98-21.357-5.455L0,90l7.975-23.522 c-4.023-6.606-6.34-14.354-6.34-22.637C1.635,19.628,21.416,0,45.818,0C70.223,0,90,19.628,90,43.841z M45.818,6.982 c-20.484,0-37.146,16.535-37.146,36.859c0,8.065,2.629,15.534,7.076,21.61L11.107,79.14l14.275-4.537 c5.865,3.851,12.891,6.097,20.437,6.097c20.481,0,37.146-16.533,37.146-36.857S66.301,6.982,45.818,6.982z M68.129,53.938 c-0.273-0.447-0.994-0.717-2.076-1.254c-1.084-0.537-6.41-3.138-7.4-3.495c-0.993-0.358-1.717-0.538-2.438,0.537 c-0.721,1.076-2.797,3.495-3.43,4.212c-0.632,0.719-1.263,0.809-2.347,0.271c-1.082-0.537-4.571-1.673-8.708-5.333 c-3.219-2.848-5.393-6.364-6.025-7.441c-0.631-1.075-0.066-1.656,0.475-2.191c0.488-0.482,1.084-1.255,1.625-1.882 c0.543-0.628,0.723-1.075,1.082-1.793c0.363-0.717,0.182-1.344-0.09-1.883c-0.27-0.537-2.438-5.825-3.34-7.977 c-0.902-2.15-1.803-1.792-2.436-1.792c-0.631,0-1.354-0.09-2.076-0.09c-0.722,0-1.896,0.269-2.889,1.344 c-0.992,1.076-3.789,3.676-3.789,8.963c0,5.288,3.879,10.397,4.422,11.113c0.541,0.716,7.49,11.92,18.5,16.223 C58.2,65.771,58.2,64.336,60.186,64.156c1.984-0.179,6.406-2.599,7.312-5.107C68.398,56.537,68.398,54.386,68.129,53.938z"/>
+							</svg>
+						</a>
+					</li>
+					<li>
+						<!-- gmail -->
+						<a href="mailto:jacky.chavez2606@gmail.com?Subject=Aplicacion%20del%20empleo">
+							<svg class="glow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+								<path class="st0" d="M459,51H51C22.95,51,0,73.95,0,102v306c0,28.05,22.95,51,51,51h408c28.05,0,51-22.95,51-51V102 C510,73.95,487.05,51,459,51z M459,408h-51V183.6l-153,96.9l-153-96.9V408H51V102h30.6L255,209.1L428.4,102H459V408z"/>
+							</svg>
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+								<path class="st0" d="M459,51H51C22.95,51,0,73.95,0,102v306c0,28.05,22.95,51,51,51h408c28.05,0,51-22.95,51-51V102 C510,73.95,487.05,51,459,51z M459,408h-51V183.6l-153,96.9l-153-96.9V408H51V102h30.6L255,209.1L428.4,102H459V408z"/>
+							</svg>
+						</a>
+					</li>
+					<li>
+						<!-- linkedin -->
+						<a href="https://www.linkedin.com/in/rebeca-evora-b61570221/">
+							<svg class="glow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+								<path class="st0" d="M0 24C0 10.7452 10.7452 0 24 0C37.2548 0 48 10.7452 48 24C48 37.2548 37.2548 48 24 48C10.7452 48 0 37.2548 0 24ZM16.9605 19.8778H11.5216V36.2196H16.9605V19.8778ZM17.3188 14.8227C17.2835 13.2204 16.1377 12 14.277 12C12.4164 12 11.2 13.2204 11.2 14.8227C11.2 16.3918 12.3805 17.6473 14.2064 17.6473H14.2412C16.1377 17.6473 17.3188 16.3918 17.3188 14.8227ZM36.5754 26.8497C36.5754 21.8303 33.8922 19.4941 30.3131 19.4941C27.4254 19.4941 26.1326 21.0802 25.4107 22.1929V19.8783H19.9711C20.0428 21.4117 19.9711 36.22 19.9711 36.22H25.4107V27.0934C25.4107 26.605 25.446 26.1178 25.5898 25.7681C25.9829 24.7924 26.8779 23.7822 28.3805 23.7822C30.3494 23.7822 31.1365 25.2807 31.1365 27.4767V36.2196H36.5752L36.5754 26.8497Z"/>
+							</svg>
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+								<path class="st0" d="M0 24C0 10.7452 10.7452 0 24 0C37.2548 0 48 10.7452 48 24C48 37.2548 37.2548 48 24 48C10.7452 48 0 37.2548 0 24ZM16.9605 19.8778H11.5216V36.2196H16.9605V19.8778ZM17.3188 14.8227C17.2835 13.2204 16.1377 12 14.277 12C12.4164 12 11.2 13.2204 11.2 14.8227C11.2 16.3918 12.3805 17.6473 14.2064 17.6473H14.2412C16.1377 17.6473 17.3188 16.3918 17.3188 14.8227ZM36.5754 26.8497C36.5754 21.8303 33.8922 19.4941 30.3131 19.4941C27.4254 19.4941 26.1326 21.0802 25.4107 22.1929V19.8783H19.9711C20.0428 21.4117 19.9711 36.22 19.9711 36.22H25.4107V27.0934C25.4107 26.605 25.446 26.1178 25.5898 25.7681C25.9829 24.7924 26.8779 23.7822 28.3805 23.7822C30.3494 23.7822 31.1365 25.2807 31.1365 27.4767V36.2196H36.5752L36.5754 26.8497Z"/>
+							</svg>
+						</a>
+					</li>
+					<li>
+						<!-- telegram -->
+						<a href="https://t.me/Jackeline_Evora">
+							<svg class="glow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+								<path class="st0" d="M470.4354553,45.4225006L16.8273029,221.2490387c-18.253809,8.1874695-24.4278889,24.5854034-4.4127407,33.4840851l116.3710175,37.1726685l281.3674316-174.789505c15.3625488-10.9733887,31.0910339-8.0470886,17.5573425,4.023468L186.0532227,341.074646l-7.5913849,93.0762329c7.0313721,14.3716125,19.9055786,14.4378967,28.1172485,7.2952881l66.8582916-63.5891418l114.5050659,86.1867065c26.5942688,15.8265076,41.0652466,5.6130371,46.7870789-23.3935242L509.835083,83.1804428C517.6329956,47.474514,504.3345032,31.7425518,470.4354553,45.4225006z"/>
+							</svg>
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+								<path class="st0" d="M470.4354553,45.4225006L16.8273029,221.2490387c-18.253809,8.1874695-24.4278889,24.5854034-4.4127407,33.4840851l116.3710175,37.1726685l281.3674316-174.789505c15.3625488-10.9733887,31.0910339-8.0470886,17.5573425,4.023468L186.0532227,341.074646l-7.5913849,93.0762329c7.0313721,14.3716125,19.9055786,14.4378967,28.1172485,7.2952881l66.8582916-63.5891418l114.5050659,86.1867065c26.5942688,15.8265076,41.0652466,5.6130371,46.7870789-23.3935242L509.835083,83.1804428C517.6329956,47.474514,504.3345032,31.7425518,470.4354553,45.4225006z"/>
+							</svg>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</footer>
+
+
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+	</body>
+</html>
