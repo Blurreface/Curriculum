@@ -5,13 +5,6 @@ body {
   background: $clr-blue;
 }
 
-h2 {
-  text-align: center;
-  font-size: 80px;
-  letter-spacing: 5px;
-  position: relative;
-  font-family: 'Baloo Tamma', cursive;
-}
 
 .texto {
       text-align: center;
@@ -178,15 +171,6 @@ header{
    margin-left: auto;
    margin-right: auto;
   }
-
-  div#peqdivs:hover {
-      background-color: blue;
-      color: pink;
-      webkit-box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
-      box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
-      height: 800px;
-      transition:all 2s ease-in-out;
-    }
     .Content{
       display: none;
       position: absolute;
@@ -194,11 +178,6 @@ header{
       color: white;
     /*z-index: 10;*/
   }
-  div :hover .Content{
-    display: block;
-    color: white;
-    margin-top: 300px;
-}
 .headers{
     color: #D35400;
     text-align: center;
